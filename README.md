@@ -1,10 +1,10 @@
-# 📈 Implied-Volatility-Surface
+# Implied-Volatility-Surface
 
 This project calculates the **Black-Scholes option pricing formula**, derives the **Greeks**, and visualizes the **implied volatility surface** for a given stock ticker.
 
 ---
 
-## 🔍 Overview
+## Overview
 
 Options traders often use implied volatility to understand market expectations of future price movement. This tool automates the process of:
 
@@ -16,7 +16,7 @@ Options traders often use implied volatility to understand market expectations o
 
 ---
 
-## 🧮 Key Features
+## Key Features
 
 - ✅ Analytical Black-Scholes pricing
 - ✅ Calculation of all major option Greeks
@@ -27,7 +27,7 @@ Options traders often use implied volatility to understand market expectations o
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - `numpy`
 - `pandas`
@@ -38,7 +38,7 @@ Options traders often use implied volatility to understand market expectations o
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. **Fetch Option Chain**  
    Pulls live market data from `MarketData.com`. Without an API key, only Apple (AAPL) is supported.
@@ -57,7 +57,7 @@ Options traders often use implied volatility to understand market expectations o
 
 ---
 
-## 📊 Output Example
+## Output Example
 
 - Option Chain with calculated IV
 - 3D Volatility Surface:
@@ -67,7 +67,7 @@ Options traders often use implied volatility to understand market expectations o
 
 ---
 
-## 🧠 Educational Use
+## Educational Use
 
 This repo is designed for educational purposes, helping users learn about:
 
